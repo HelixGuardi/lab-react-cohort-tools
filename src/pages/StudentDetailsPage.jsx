@@ -10,6 +10,8 @@ function StudentDetailsPage() {
     return eachStudent._id === dinamicParam.studentId;
   });
   // console.log(foundStudent)
+  
+  // sin querer terminé haciendo la iteración 4 sin haber hecho antes el commit de la 3 y lo subí todo junto como si fuera iteración 3. Por eso dejaré este comentario aqui (para mi yo del futuro) para cuando vuelva a mirar este código. Ahora haré otro commit con el mensaje de "iteration 4 | Mostrar detalles del estudiante (Solved Lab)"
 
   // Find the current student profile by id.
   // In this case, the student with id 1. The `studentId` is hard-coded for now.
